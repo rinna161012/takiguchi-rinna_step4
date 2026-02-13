@@ -1,1 +1,0 @@
-# Takiguchi-rinna_step4
