@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+
+body {
+    font-family: sans-serif;
+    margin-right: auto;
+   background-color: #f7f9fa;
+
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+ form {
+    background-color: #fff;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+ }
+  
+label {
+    display: block;
+    margin-bottom: 6px;
+}
+input[type="text"] {  /*text型のinputを指定*/
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 12px;
+}
+button {
+    
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+button:hover {
+    background-color: #45a049;
+}
+.container {
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; /* ここをcontainにすると全体に広がらない */
+
+}
